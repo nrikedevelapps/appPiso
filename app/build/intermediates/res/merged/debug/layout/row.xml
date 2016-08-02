@@ -1,22 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="400dp"
-        android:background="@drawable/target_shape"
-        android:elevation="12dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:background="#c0fdf5"
+        android:id="@+id/relativeLayout"
+        android:elevation="6dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:id="@+id/imageView"
-            android:scaleType="centerCrop"
-            android:src="@drawable/prueba" />
-    </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:id="@+id/imgProducto"
+            android:scaleType="centerCrop" />
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/primary"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="producto"
+                android:textStyle="bold"
+                android:textColor="#e1e1e1"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:id="@+id/lbproducto" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/primary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="cantidad"
+                android:id="@+id/lbcantidad"
+                android:textStyle="bold"
+                android:textColor="#d4d4d4"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
 </RelativeLayout>

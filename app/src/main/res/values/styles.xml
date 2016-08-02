@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <color name="white_opaque">#FFFFFFFF</color>
+    <color name="pitch_black">#FF000000</color>
+
+    <style name="appTransparent" parent="android:Theme.Light">
+        <item name="android:background">@color/white_opaque</item>
+        <item name="android:windowBackground">@color/white_opaque</item>
+        <item name="android:colorBackground">@color/white_opaque</item>
+
+    </style>
+
 </resources>
