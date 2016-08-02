@@ -9,18 +9,21 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="380dp"
-            android:id="@+id/relativeLayout3">
+            android:layout_height="260dp"
+            android:id="@+id/HorizontalList">
 
             <org.lucasr.twowayview.TwoWayView
                 android:orientation="horizontal"
                 android:id="@+id/lvItems"
                 android:layout_width="wrap_content"
-                android:layout_height="380dp"
+                android:layout_height="wrap_content"
                 android:foregroundGravity="bottom"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
@@ -60,16 +63,34 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/relativeLayout3"
-            android:background="@drawable/part_menu">
+            android:layout_below="@+id/HorizontalList"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/VerticalList"
+            android:background="@color/colorPrimarySemiTransparent">
 
-            <at.markushi.ui.CircleButton
-                android:layout_width="70dp"
-                android:layout_height="70dp"
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                android:src="@drawable/new_product"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/lvItems"
+                    android:layout_toEndOf="@+id/lvItems"
+                    android:background="#ce505050"></LinearLayout>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/listView"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
         </RelativeLayout>
 
     </RelativeLayout>
