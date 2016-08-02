@@ -1788,13 +1788,14 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f02004a;
         public static final int buy_shop=0x7f02004b;
         public static final int degradate=0x7f02004c;
-        public static final int next=0x7f02004d;
-        public static final int notification_template_icon_bg=0x7f020053;
-        public static final int part=0x7f02004e;
-        public static final int part_menu=0x7f02004f;
-        public static final int previous=0x7f020050;
-        public static final int prueba=0x7f020051;
-        public static final int rounded_button=0x7f020052;
+        public static final int new_product=0x7f02004d;
+        public static final int next=0x7f02004e;
+        public static final int notification_template_icon_bg=0x7f020054;
+        public static final int part=0x7f02004f;
+        public static final int part_menu=0x7f020050;
+        public static final int previous=0x7f020051;
+        public static final int prueba=0x7f020052;
+        public static final int rounded_button=0x7f020053;
     }
     public static final class id {
         public static final int action0=0x7f0c0056;
