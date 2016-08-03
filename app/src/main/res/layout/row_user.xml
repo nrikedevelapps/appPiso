@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -14,16 +16,15 @@
             android:elevation="6dp"
             android:background="#f3f3f3">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
+            <ImageView
                 android:id="@+id/imguser"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:src="@drawable/prueba"
-                android:layout_centerVertical="true"
+                android:layout_alignBottom="@+id/lbtotaluser"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginLeft="15dp" />
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,6 +50,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="22dp"
                 android:layout_marginEnd="22dp" />
+
+
         </RelativeLayout>
     </RelativeLayout>
 </LinearLayout>
