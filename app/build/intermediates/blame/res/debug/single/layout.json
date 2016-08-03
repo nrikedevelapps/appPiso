@@ -52,24 +52,24 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml"
-    },
-    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
@@ -130,6 +130,10 @@
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/dialog_new_product.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/layout/dialog_new_product.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",

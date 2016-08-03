@@ -1,8 +1,11 @@
 package com.example.nrike.housemate.View;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -56,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btmore)
     public void Click_btmore(){
         //ToastView
-
+        dialogNewProduct();
     }
 
     public void newProducts(){
@@ -84,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        horizontalList.setVisibility(View.GONE);
+        btmore.setVisibility(View.GONE);
         //getSupportActionBar().hide();
         //TEST
         newProducts();
@@ -95,6 +100,20 @@ public class MainActivity extends AppCompatActivity {
         listAdapterUser = new ListAdapterUser(getBaseContext(),users);
         usersList.setAdapter(listAdapterUser);
 
-
     }
+
+    public void dialogNewProduct(){
+        AlertDialog.Builder dialog_new_product = new AlertDialog.Builder(this);
+
+        LayoutInflater inflater ;
+        inflater = (LayoutInflater)getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View view_new_product = inflater.inflate(R.layout.dialog_new_product, null);
+        dialog_new_product.setView(view_new_product);
+        //Actions View
+
+        dialog_new_product.show();
+    }
+
+
 }
