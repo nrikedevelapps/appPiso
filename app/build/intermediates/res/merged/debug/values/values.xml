@@ -38,7 +38,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#8bc34a</color>
     <color name="colorPrimaryDark">#689f38</color>
-    <color name="colorPrimarySemiTransparent">#718bc34a</color>
+    <color name="colorPrimarySemiTransparent">#f3f7ee</color>
     <color name="colorTarget">#FF4081</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>

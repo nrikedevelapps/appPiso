@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
     List<Product> products;
     List<User> users;
 
+    @BindView(R.id.floatbuttons)
+    RelativeLayout floatbuttons;
+
+    @BindView(R.id.btbuy)
+    FloatingActionButton btbuy;
+
     @BindView(R.id.btmore)
     FloatingActionButton btmore;
 
@@ -50,9 +57,12 @@ public class MainActivity extends AppCompatActivity {
         if(visible== View.GONE){
             horizontalList.setVisibility(View.VISIBLE);
             btmore.setVisibility(View.VISIBLE);
+            btbuy.setImageDrawable(getResources().getDrawable(android.R.drawable.ic_menu_close_clear_cancel));;
+
         }else{
             horizontalList.setVisibility(View.GONE);
             btmore.setVisibility(View.GONE);
+            btbuy.setImageDrawable(getResources().getDrawable(android.R.drawable.ic_menu_crop));;
         }
     }
 
@@ -79,6 +89,18 @@ public class MainActivity extends AppCompatActivity {
         users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
         users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
         users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
 
     }
 
@@ -99,6 +121,24 @@ public class MainActivity extends AppCompatActivity {
 
         listAdapterUser = new ListAdapterUser(getBaseContext(),users);
         usersList.setAdapter(listAdapterUser);
+
+
+       usersList.setOnScrollListener(new AbsListView.OnScrollListener() {
+           @Override
+           public void onScrollStateChanged(AbsListView view, int scrollState) {
+
+           }
+
+           @Override
+           public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+               if(firstVisibleItem==0){
+                   floatbuttons.setVisibility(View.VISIBLE);
+               }else{
+                   floatbuttons.setVisibility(View.GONE);
+               }
+
+           }
+       });
 
     }
 
