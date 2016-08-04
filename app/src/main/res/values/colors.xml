@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#8bc34a</color>
-    <color name="colorPrimaryDark">#689f38</color>
+    <color name="colorPrimary">#c34a91</color>
+    <color name="colorPrimaryDark">#87389f</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="colorRowUser">#fcfcfc</color>
     <color name="colorPrimarySemiTransparent">#f3f7ee</color>
 
     <color name="colorTarget">#FF4081</color>

@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.nrike.housemate.Model.entity.Product;
+import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.R;
 
 import java.util.List;

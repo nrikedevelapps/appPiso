@@ -1,4 +1,4 @@
-package com.example.nrike.housemate.Model.entity;
+package com.example.nrike.housemate.Model.Entity;
 
 import android.graphics.drawable.Drawable;
 

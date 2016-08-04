@@ -1,19 +1,24 @@
 package com.example.nrike.housemate.View;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
-import com.example.nrike.housemate.Model.entity.Product;
-import com.example.nrike.housemate.Model.entity.User;
+import com.example.nrike.housemate.Model.Entity.Product;
+import com.example.nrike.housemate.Model.Entity.User;
+import com.example.nrike.housemate.Model.Facebooksdk.FacebookPreferences;
 import com.example.nrike.housemate.R;
+import com.facebook.login.LoginManager;
 
 import org.lucasr.twowayview.TwoWayView;
 
@@ -26,6 +31,7 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
+    FacebookPreferences loginPresenter;
 
     ListAdapter listAdapter ;
     ListAdapterUser listAdapterUser;
@@ -111,8 +117,9 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         horizontalList.setVisibility(View.GONE);
         btmore.setVisibility(View.GONE);
-        //getSupportActionBar().hide();
-        //TEST
+
+        loginPresenter = new FacebookPreferences(getBaseContext());
+
         newProducts();
         newUsers();
 
@@ -123,23 +130,50 @@ public class MainActivity extends AppCompatActivity {
         usersList.setAdapter(listAdapterUser);
 
 
-       usersList.setOnScrollListener(new AbsListView.OnScrollListener() {
-           @Override
-           public void onScrollStateChanged(AbsListView view, int scrollState) {
+        usersList.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
 
-           }
+            }
 
-           @Override
-           public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-               if(firstVisibleItem==0){
-                   floatbuttons.setVisibility(View.VISIBLE);
-               }else{
-                   floatbuttons.setVisibility(View.GONE);
-               }
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+                if(firstVisibleItem==0){
+                    floatbuttons.setVisibility(View.VISIBLE);
+                }else{
+                    floatbuttons.setVisibility(View.GONE);
+                }
 
-           }
-       });
+            }
+        });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id){
+            case R.id.log_out:
+                LoginManager.getInstance().logOut();
+                loginPresenter.LoginFalse();
+                Intent i  = new Intent (MainActivity.this, Login.class);
+                startActivity(i);
+                finish();
+                break;
+        }
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+       // finish();
     }
 
     public void dialogNewProduct(){
@@ -151,9 +185,10 @@ public class MainActivity extends AppCompatActivity {
         View view_new_product = inflater.inflate(R.layout.dialog_new_product, null);
         dialog_new_product.setView(view_new_product);
         //Actions View
-
         dialog_new_product.show();
     }
+
+
 
 
 }

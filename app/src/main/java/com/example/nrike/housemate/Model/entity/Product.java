@@ -1,4 +1,4 @@
-package com.example.nrike.housemate.Model.entity;
+package com.example.nrike.housemate.Model.Entity;
 
 /**
  * Created by develapps15 on 2/8/16.

@@ -1,7 +1,6 @@
 package com.example.nrike.housemate.View;
 
 import android.content.Context;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.nrike.housemate.Model.entity.User;
+import com.example.nrike.housemate.Model.Entity.User;
 import com.example.nrike.housemate.R;
 
 import java.util.List;
