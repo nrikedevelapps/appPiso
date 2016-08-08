@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.nrike.housemate.Model.Entity.User;
 import com.example.nrike.housemate.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -60,7 +61,10 @@ public class ListAdapterUser extends BaseAdapter {
         SharedPreferences preferences = context.getSharedPreferences("PREFS",Context.MODE_PRIVATE);
         relativeLayout.setBackgroundColor(context.getResources().getColor(preferences.getInt("colorPrimary",R.color.colorPrimary)));
 
-        img.setBackground(user.getImage_user());
+       // img.setBackground(user.getImage_user());
+
+        Picasso.with(context).load(preferences.getString("user_image_profile","unknown")).into(img);
+
         txtname.setText(user.getName());
         txtcantidad.setText(String.valueOf(user.getBuy_products()));
 

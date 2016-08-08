@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
     FacebookPreferences loginPresenter;
 
+
+
     ListAdapter listAdapter ;
     ListAdapterUser listAdapterUser;
 
@@ -105,10 +107,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void newUsers(){
         users = new ArrayList<>();
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+        users.add(new User("PEPE",13,"nanai"));
+        users.add(new User("PEPE",13,"nanai"));
+        users.add(new User("PEPE",13,"nanai"));
+        users.add(new User("PEPE",13,"nanai"));
 
 
     }
@@ -121,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
         horizontalList.setVisibility(View.GONE);
         btmore.setVisibility(View.GONE);
         actionBar =getSupportActionBar();
+
 
 
         loginPresenter = new FacebookPreferences(getBaseContext());

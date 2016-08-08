@@ -9,8 +9,10 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.example.nrike.housemate.Model.Facebooksdk.FacebookPreferences;
+import com.example.nrike.housemate.Presenter.LoginPresenter;
 import com.example.nrike.housemate.R;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -24,7 +26,10 @@ import com.facebook.login.widget.LoginButton;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class Login extends AppCompatActivity{
+public class Login extends AppCompatActivity implements LoginView{
+
+
+    LoginPresenter loginPresenter;
 
     @BindView(R.id.relativeLayoutLogin)
     RelativeLayout relativeLayoutLogin;
@@ -46,6 +51,7 @@ public class Login extends AppCompatActivity{
 
 
         facebookPreferences= new FacebookPreferences(getBaseContext());
+        loginPresenter = new LoginPresenter(this,this);
 
         EnterMain();
 
@@ -59,7 +65,11 @@ public class Login extends AppCompatActivity{
                     public void onSuccess(LoginResult loginResult) {
                         facebookPreferences.GetProfileData(loginResult);
                         facebookPreferences.LoginTrue();
-                        EnterMain();
+                        //loginPresenter.newUser();
+                        loginPresenter.exist();
+
+
+
                     }
 
                     @Override
@@ -111,4 +121,13 @@ public class Login extends AppCompatActivity{
     }
 
 
+    @Override
+    public void userAlreadyExist() {
+        Toast.makeText(Login.this, "Este usuario ya existe", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void enterMain() {
+        EnterMain();
+    }
 }

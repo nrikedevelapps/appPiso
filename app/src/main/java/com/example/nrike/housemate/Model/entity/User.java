@@ -1,7 +1,5 @@
 package com.example.nrike.housemate.Model.Entity;
 
-import android.graphics.drawable.Drawable;
-
 /**
  * Created by nrike on 2/08/16.
  */
@@ -9,9 +7,9 @@ public class User {
 
     String name;
     int buy_products;
-    Drawable image_user;
+    String image_user;
 
-    public User(String name, int buy_products, Drawable image_user) {
+    public User(String name, int buy_products, String image_user) {
         this.name = name;
         this.buy_products = buy_products;
         this.image_user = image_user;
@@ -33,11 +31,11 @@ public class User {
         this.buy_products = buy_products;
     }
 
-    public Drawable getImage_user() {
+    public String getImage_user() {
         return image_user;
     }
 
-    public void setImage_user(Drawable image_user) {
+    public void setImage_user(String image_user) {
         this.image_user = image_user;
     }
 }

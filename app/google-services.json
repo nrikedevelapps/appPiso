@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "827485265137",
+    "firebase_url": "https://housemate-a8acf.firebaseio.com",
+    "project_id": "housemate-a8acf",
+    "storage_bucket": "housemate-a8acf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827485265137:android:0a431259e654fb97",
+        "android_client_info": {
+          "package_name": "com.example.nrike.housemate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827485265137-35ivhmaggndi17v9gegs1tj4uaid35b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ENhDi14ywIqo1xKmc7X4_lG4-7OwsZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
