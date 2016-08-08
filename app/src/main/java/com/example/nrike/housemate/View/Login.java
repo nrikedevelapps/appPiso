@@ -1,9 +1,14 @@
 package com.example.nrike.housemate.View;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.WindowManager;
+import android.widget.RelativeLayout;
 
 import com.example.nrike.housemate.Model.Facebooksdk.FacebookPreferences;
 import com.example.nrike.housemate.R;
@@ -16,7 +21,13 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class Login extends AppCompatActivity{
+
+    @BindView(R.id.relativeLayoutLogin)
+    RelativeLayout relativeLayoutLogin;
 
     FacebookPreferences facebookPreferences;
 
@@ -29,7 +40,10 @@ public class Login extends AppCompatActivity{
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
         setContentView(R.layout.activity_login);
+        ButterKnife.bind(this);
         getSupportActionBar().hide();
+        setColorTheme();
+
 
         facebookPreferences= new FacebookPreferences(getBaseContext());
 
@@ -75,6 +89,25 @@ public class Login extends AppCompatActivity{
             startActivity(i);
             finish();
         }
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public void setColorTheme(){
+        int relativeBackgroundColor=0;
+        int statusbarBackgroundColor=0;
+
+        SharedPreferences preferences = getSharedPreferences("PREFS",MODE_PRIVATE);
+        relativeBackgroundColor = preferences.getInt("colorPrimary",R.color.colorPrimary);
+        statusbarBackgroundColor = preferences.getInt("colorPrimaryDark",R.color.colorPrimaryDark);
+
+        relativeLayoutLogin.setBackgroundColor(getResources().getColor(relativeBackgroundColor));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            getWindow().setStatusBarColor(ContextCompat.getColor(this, statusbarBackgroundColor));
+        }
+
+
     }
 
 

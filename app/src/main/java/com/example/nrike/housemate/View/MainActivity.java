@@ -2,15 +2,23 @@ package com.example.nrike.housemate.View;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.ColorStateList;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AbsListView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
@@ -25,6 +33,7 @@ import org.lucasr.twowayview.TwoWayView;
 import java.util.ArrayList;
 import java.util.List;
 
+import at.markushi.ui.CircleButton;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -38,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
     List<Product> products;
     List<User> users;
+
+    ActionBar actionBar;
+
+    @BindView(R.id.separator)
+    LinearLayout separator;
 
     @BindView(R.id.floatbuttons)
     RelativeLayout floatbuttons;
@@ -95,18 +109,7 @@ public class MainActivity extends AppCompatActivity {
         users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
         users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
         users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
-        users.add(new User("PEPE",13,getResources().getDrawable(R.drawable.prueba)));
+
 
     }
 
@@ -117,6 +120,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         horizontalList.setVisibility(View.GONE);
         btmore.setVisibility(View.GONE);
+        actionBar =getSupportActionBar();
+
 
         loginPresenter = new FacebookPreferences(getBaseContext());
 
@@ -147,6 +152,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        changeColors();
+
     }
 
     @Override
@@ -166,6 +173,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 finish();
                 break;
+            case R.id.color:
+                dialogColor();
+                break;
+
         }
         return true;
     }
@@ -185,7 +196,111 @@ public class MainActivity extends AppCompatActivity {
         View view_new_product = inflater.inflate(R.layout.dialog_new_product, null);
         dialog_new_product.setView(view_new_product);
         //Actions View
+
+
+
         dialog_new_product.show();
+    }
+
+    public void dialogColor(){
+        final AlertDialog.Builder dialog_new_product = new AlertDialog.Builder(this);
+
+        LayoutInflater inflater ;
+        inflater = (LayoutInflater)getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View view_color = inflater.inflate(R.layout.dialog_color, null);
+        dialog_new_product.setView(view_color);
+        //Actions View
+
+        CircleButton btred = (CircleButton) view_color.findViewById(R.id.color_red);
+        CircleButton btviolet = (CircleButton) view_color.findViewById(R.id.color_violet);
+        CircleButton btyellow = (CircleButton) view_color.findViewById(R.id.color_yellow);
+        CircleButton btblue = (CircleButton) view_color.findViewById(R.id.color_blue);
+
+        SharedPreferences preferences = getSharedPreferences("PREFS",MODE_PRIVATE);
+        final SharedPreferences.Editor editor = preferences.edit();
+
+        btred.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor.putInt("colorPrimary",R.color.colorPrimary_red);
+                editor.putInt("colorPrimaryDark",R.color.colorPrimaryDark_red);
+                editor.putInt("colorAccent",R.color.colorAccent_red);
+                editor.putInt("colorPrimarySemiTransparent",R.color.colorPrimarySemiTransparent_red);
+                editor.commit();
+                changeColors();
+                listAdapterUser.notifyDataSetChanged();
+
+            }
+        });
+
+        btviolet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor.putInt("colorPrimary",R.color.colorPrimary_violet);
+                editor.putInt("colorPrimaryDark",R.color.colorPrimaryDark_violet);
+                editor.putInt("colorAccent",R.color.colorAccent_violet);
+                editor.putInt("colorPrimarySemiTransparent",R.color.colorPrimarySemiTransparent_violet);
+                editor.commit();
+                changeColors();
+                listAdapterUser.notifyDataSetChanged();
+
+            }
+        });
+
+        btyellow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor.putInt("colorPrimary",R.color.colorPrimary_yellow);
+                editor.putInt("colorPrimaryDark",R.color.colorPrimaryDark_yellow);
+                editor.putInt("colorAccent",R.color.colorAccent_yellow);
+                editor.putInt("colorPrimarySemiTransparent",R.color.colorPrimarySemiTransparent_yellow);
+                editor.commit();
+                changeColors();
+                listAdapterUser.notifyDataSetChanged();
+
+            }
+        });
+
+        btblue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor.putInt("colorPrimary",R.color.colorPrimary);
+                editor.putInt("colorPrimaryDark",R.color.colorPrimaryDark);
+                editor.putInt("colorAccent",R.color.colorAccent);
+                editor.putInt("colorPrimarySemiTransparent",R.color.colorPrimarySemiTransparent);
+                editor.commit();
+                changeColors();
+                listAdapterUser.notifyDataSetChanged();
+
+            }
+        });
+
+
+
+        dialog_new_product.show();
+    }
+
+    public void changeColors(){
+        SharedPreferences preferences = getSharedPreferences("PREFS",MODE_PRIVATE);
+
+        int colorPrimary=preferences.getInt("colorPrimary",R.color.colorPrimary);
+        int colorPrimaryDark=preferences.getInt("colorPrimaryDark",R.color.colorPrimaryDark);
+        int colorSemiTransparent = preferences.getInt("colorPrimarySemiTransparent",R.color.colorPrimarySemiTransparent);
+
+        ColorDrawable colorDrawable = new ColorDrawable(getResources().getColor(colorPrimary));
+        actionBar.setBackgroundDrawable(colorDrawable);
+        separator.setBackgroundColor(getResources().getColor(colorPrimary));
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            getWindow().setStatusBarColor(ContextCompat.getColor(this, colorPrimaryDark));
+        }
+        horizontalList.setBackgroundColor(getResources().getColor(colorSemiTransparent));;
+        btbuy.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(colorPrimary)));
+        btmore.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(colorPrimary)));
+
     }
 
 

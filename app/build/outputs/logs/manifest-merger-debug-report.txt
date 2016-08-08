@@ -42,11 +42,11 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents
 MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.github.markushi:circlebutton:1.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.pkmmte.view:circularimageview:1.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:28:5-37:19
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:28:5-37:19
 MERGED from [com.android.support:customtabs:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -87,7 +87,7 @@ ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/mai
 		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:26:20-65
 activity#com.facebook.FacebookActivity
 ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:27:9-31:48
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:29:9-32:75
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:29:9-32:75
 	android:label
 		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:31:13-45
 	android:configChanges
@@ -124,11 +124,11 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents
 MERGED from [com.github.markushi:circlebutton:1.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:7:5-44
 MERGED from [com.pkmmte.view:circularimageview:1.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton:butterknife:8.2.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:customtabs:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -138,8 +138,8 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents
 		INJECTED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml
 activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:33:9-36:20
+ADDED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:33:9-36:20
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:34:13-58
+		ADDED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:34:13-58

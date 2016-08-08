@@ -11,6 +11,7 @@
         android:layout_margin="10dp">
 
         <RelativeLayout
+            android:id="@+id/backgroundUserRow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/row_user_shape_1">

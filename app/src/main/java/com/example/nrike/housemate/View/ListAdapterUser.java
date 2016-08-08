@@ -1,11 +1,13 @@
 package com.example.nrike.housemate.View;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.nrike.housemate.Model.Entity.User;
@@ -53,6 +55,10 @@ public class ListAdapterUser extends BaseAdapter {
         ImageView img = (ImageView) v.findViewById(R.id.imguser);
         TextView txtname = (TextView) v.findViewById(R.id.lbusername);
         TextView txtcantidad= (TextView) v.findViewById(R.id.lbtotaluser);
+        RelativeLayout relativeLayout = (RelativeLayout) v.findViewById(R.id.backgroundUserRow);
+
+        SharedPreferences preferences = context.getSharedPreferences("PREFS",Context.MODE_PRIVATE);
+        relativeLayout.setBackgroundColor(context.getResources().getColor(preferences.getInt("colorPrimary",R.color.colorPrimary)));
 
         img.setBackground(user.getImage_user());
         txtname.setText(user.getName());

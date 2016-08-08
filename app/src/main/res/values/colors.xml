@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#c34a91</color>
-    <color name="colorPrimaryDark">#87389f</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimary">#4a66c3</color>
+    <color name="colorPrimaryDark">#38479f</color>
+    <color name="colorAccent">#4096ff</color>
+    <color name="colorPrimarySemiTransparent">#0c40bcff</color>
+
+    <color name="Transparent">#9b9b9b</color>
+
+    <!--violet-->
+    <color name="colorPrimary_violet">#c34a91</color>
+    <color name="colorPrimaryDark_violet">#87389f</color>
+    <color name="colorAccent_violet">#FF4081</color>
+    <color name="colorPrimarySemiTransparent_violet">#0cff4081</color>
+
+    <!--Red-->
+    <color name="colorPrimary_red">#c34a4a</color>
+    <color name="colorPrimaryDark_red">#a10d0d</color>
+    <color name="colorAccent_red">#ff5c64</color>
+    <color name="colorPrimarySemiTransparent_red">#0cff4040</color>
+
+    <!--Yellow-->
+    <color name="colorPrimary_yellow">#FFC107</color>
+    <color name="colorPrimaryDark_yellow">#FFA000</color>
+    <color name="colorAccent_yellow">#ffe95c</color>
+    <color name="colorPrimarySemiTransparent_yellow">#0cffe640</color>
 
     <color name="colorRowUser">#fcfcfc</color>
-    <color name="colorPrimarySemiTransparent">#f3f7ee</color>
+
 
     <color name="colorTarget">#FF4081</color>
 
     <color name="primary">#009688</color>
-    <color name="primary_dark">#00796B</color>
-    <color name="primary_light">#B2DFDB</color>
-    <color name="accent">#8BC34A</color>
-    <color name="primary_text">#212121</color>
-    <color name="secondary_text">#757575</color>
-    <color name="icons">#FFFFFF</color>
-    <color name="divider">#BDBDBD</color>
+
 
 
 </resources>
