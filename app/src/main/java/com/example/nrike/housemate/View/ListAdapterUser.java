@@ -63,7 +63,7 @@ public class ListAdapterUser extends BaseAdapter {
 
        // img.setBackground(user.getImage_user());
 
-        Picasso.with(context).load(preferences.getString("user_image_profile","unknown")).into(img);
+        Picasso.with(context).load(user.getImage_user()).into(img);
 
         txtname.setText(user.getName());
         txtcantidad.setText(String.valueOf(user.getBuy_products()));

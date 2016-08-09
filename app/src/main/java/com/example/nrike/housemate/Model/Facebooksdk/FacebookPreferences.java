@@ -2,7 +2,6 @@ package com.example.nrike.housemate.Model.Facebooksdk;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.util.Log;
 
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
@@ -45,13 +44,12 @@ public class FacebookPreferences {
                 String name = profile.getName();
                 String userimage= "" ;
                 if (Profile.getCurrentProfile()!=null) {
-                    Log.i("Login", "ProfilePic" + Profile.getCurrentProfile().getProfilePictureUri(200, 200));
+                    //Log.i("Login", "ProfilePic" + Profile.getCurrentProfile().getProfilePictureUri(200, 200));
                     userimage= String.valueOf(Profile.getCurrentProfile().getProfilePictureUri(200, 200));
                 }else{
-                    Log.i("face","sin foto de perfil");
+                   // Log.i("face","sin foto de perfil");
                     userimage="unknown";
                 }
-                Log.i("face","name "+name);
 
                 // Application code
                 SharedPreferences preferences = context.getSharedPreferences("PREFS",context.MODE_PRIVATE);

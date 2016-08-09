@@ -5,9 +5,10 @@ package com.example.nrike.housemate.View;
  */
 public interface LoginView {
 
-    public void userAlreadyExist();
 
     public void enterMain();
+
+
 
 
 }

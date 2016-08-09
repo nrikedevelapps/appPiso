@@ -19,7 +19,8 @@
         facebook:com_facebook_login_text="Registrate con Facebook"
         android:layout_gravity="center_horizontal"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:enabled="false" />
 
 
 </RelativeLayout>

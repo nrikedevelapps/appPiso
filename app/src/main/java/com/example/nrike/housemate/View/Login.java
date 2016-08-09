@@ -9,10 +9,9 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.example.nrike.housemate.Model.Facebooksdk.FacebookPreferences;
-import com.example.nrike.housemate.Presenter.LoginPresenter;
+import com.example.nrike.housemate.Presenter.Login.LoginPresenter;
 import com.example.nrike.housemate.R;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -49,7 +48,6 @@ public class Login extends AppCompatActivity implements LoginView{
         getSupportActionBar().hide();
         setColorTheme();
 
-
         facebookPreferences= new FacebookPreferences(getBaseContext());
         loginPresenter = new LoginPresenter(this,this);
 
@@ -65,10 +63,7 @@ public class Login extends AppCompatActivity implements LoginView{
                     public void onSuccess(LoginResult loginResult) {
                         facebookPreferences.GetProfileData(loginResult);
                         facebookPreferences.LoginTrue();
-                        //loginPresenter.newUser();
                         loginPresenter.exist();
-
-
 
                     }
 
@@ -82,6 +77,9 @@ public class Login extends AppCompatActivity implements LoginView{
                     ;
                     }
                 });
+
+
+        loginButton.setEnabled(true);
 
     }
 
@@ -122,12 +120,9 @@ public class Login extends AppCompatActivity implements LoginView{
 
 
     @Override
-    public void userAlreadyExist() {
-        Toast.makeText(Login.this, "Este usuario ya existe", Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
     public void enterMain() {
         EnterMain();
     }
+
+
 }

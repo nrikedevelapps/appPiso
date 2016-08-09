@@ -12,6 +12,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,7 +25,7 @@ import android.widget.RelativeLayout;
 
 import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.Model.Entity.User;
-import com.example.nrike.housemate.Model.Facebooksdk.FacebookPreferences;
+import com.example.nrike.housemate.Presenter.MainActivity.MainActivityPresenter;
 import com.example.nrike.housemate.R;
 import com.facebook.login.LoginManager;
 
@@ -38,17 +39,17 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity {
-
-    FacebookPreferences loginPresenter;
+public class MainActivity extends AppCompatActivity implements MainActivityView {
 
 
+
+    MainActivityPresenter mainActivityPresenter;
 
     ListAdapter listAdapter ;
     ListAdapterUser listAdapterUser;
 
     List<Product> products;
-    List<User> users;
+    List<User> listUsers;
 
     ActionBar actionBar;
 
@@ -72,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.HorizontalList)
     RelativeLayout horizontalList;
+
+
 
     @OnClick (R.id.btbuy)
     public void Click_btbuy(){
@@ -104,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         products.add(new Product("Papel pa la mierda","23",R.drawable.user));
         products.add(new Product("Papel pa la mierda","12",R.drawable.prueba));
     }
-
+/*
     public void newUsers(){
         users = new ArrayList<>();
         users.add(new User("PEPE",13,"nanai"));
@@ -112,8 +115,8 @@ public class MainActivity extends AppCompatActivity {
         users.add(new User("PEPE",13,"nanai"));
         users.add(new User("PEPE",13,"nanai"));
 
-
     }
+*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -125,17 +128,16 @@ public class MainActivity extends AppCompatActivity {
         actionBar =getSupportActionBar();
 
 
-
-        loginPresenter = new FacebookPreferences(getBaseContext());
+        mainActivityPresenter = new MainActivityPresenter(this,this);
 
         newProducts();
-        newUsers();
+       // newUsers();
 
         listAdapter = new ListAdapter(getBaseContext(),products);
         productsList.setAdapter(listAdapter);
 
-        listAdapterUser = new ListAdapterUser(getBaseContext(),users);
-        usersList.setAdapter(listAdapterUser);
+
+
 
 
         usersList.setOnScrollListener(new AbsListView.OnScrollListener() {
@@ -157,6 +159,8 @@ public class MainActivity extends AppCompatActivity {
 
         changeColors();
 
+        mainActivityPresenter.updateList();
+
     }
 
     @Override
@@ -171,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         switch (id){
             case R.id.log_out:
                 LoginManager.getInstance().logOut();
-                loginPresenter.LoginFalse();
+                mainActivityPresenter.logOut();
                 Intent i  = new Intent (MainActivity.this, Login.class);
                 startActivity(i);
                 finish();
@@ -308,5 +312,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    @Override
+    public void LoadUser(List<User> users) {
+         this.listUsers = users;
+        Log.i("USERS_NUM",">>"+users.size());
+        listAdapterUser = new ListAdapterUser(getBaseContext(),users);
+        usersList.setAdapter(listAdapterUser);
+        listAdapterUser.notifyDataSetChanged();
+    }
 
+    @Override
+    public void updateUsers(List<User> users) {
+        this.listUsers = users;
+        listAdapterUser.notifyDataSetChanged();
+    }
 }
