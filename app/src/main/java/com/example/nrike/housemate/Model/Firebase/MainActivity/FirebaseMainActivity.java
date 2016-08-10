@@ -1,18 +1,29 @@
 package com.example.nrike.housemate.Model.Firebase.MainActivity;
 
 import android.content.Context;
+import android.net.Uri;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.util.Log;
+import android.widget.Toast;
 
+import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.Model.Entity.User;
+import com.example.nrike.housemate.Model.tools.Tools;
 import com.example.nrike.housemate.Presenter.MainActivity.MainActivityPresenterView;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,17 +34,21 @@ public class FirebaseMainActivity {
 
     Context context;
     MainActivityPresenterView mainActivityPresenterView;
+    Tools tools;
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference users;
+    DatabaseReference products;
 
     List<User> list_users;
+    List<Product> list_products;
 
 
     public FirebaseMainActivity(Context context, MainActivityPresenterView mainActivityPresenterView) {
         this.context = context;
         this.mainActivityPresenterView = mainActivityPresenterView;
         list_users = new ArrayList<>();
+        list_products = new ArrayList<>();
     }
 
 
@@ -119,13 +134,91 @@ public class FirebaseMainActivity {
                 mainActivityPresenterView.updateUsers(list_users);
                 Log.i("USERS_NUM","lectura >>"+list_users.size());
             }
-        }, 3000);
+        }, 2500);
 
        // users.removeEventListener(childEventListener);
 
     }
 
+    public void updateListProducts(){
+        products = database.getReference();
+        Query query = products.child("products");
+        query.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 
+                String name = String.valueOf(dataSnapshot.child("name").getValue());
+                String image = String.valueOf(dataSnapshot.child("imagen").getValue());
+                String quantity = String.valueOf(dataSnapshot.child("quantity").getValue());
+
+                Product product = new Product(name,quantity,image);
+                list_products.add(product);
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mainActivityPresenterView.loadProductList(list_products);
+            }
+        },2500);
+    }
+
+    public void uploadProduct(final String name_product, final String quantity , Uri uri){
+        tools = new Tools();
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        StorageReference storageRef = storage.getReferenceFromUrl("gs://housemate-a8acf.appspot.com");
+        StorageReference imagesRef = storageRef.child(name_product);
+
+        UploadTask uploadTask = null;
+        try {
+            uploadTask = imagesRef.putBytes(tools.uriToByteArray(context,uri));
+            uploadTask.addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception exception) {
+                    Toast.makeText(context, "No se ha subido correctamente el archivo", Toast.LENGTH_SHORT).show();
+                }
+            }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                    Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                    Toast.makeText(context, "Imagen subida", Toast.LENGTH_SHORT).show();
+                    Product save_product;
+
+                    save_product= new Product(name_product,quantity,String.valueOf(downloadUrl));
+                    saveProduct(save_product);
+                }
+            });
+        } catch (IOException e) {
+            Toast.makeText(context, "Fallo inseperado en el servidor", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
+    }
+
+    public void saveProduct(Product product){
+        products = database.getReference("products");
+        products.child(product.getName()).setValue(product);
+    }
 
 
 }

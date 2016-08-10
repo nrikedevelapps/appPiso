@@ -1,5 +1,6 @@
 package com.example.nrike.housemate.Presenter.MainActivity;
 
+import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.Model.Entity.User;
 
 import java.util.List;
@@ -10,6 +11,8 @@ import java.util.List;
 public interface MainActivityPresenterView {
 
     public void loadUserList(List<User> users);
+
+    public void loadProductList(List<Product> products);
 
     public void updateUsers(List<User> users);
 

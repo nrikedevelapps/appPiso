@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml
@@ -20,8 +20,12 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/develapps
 MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:6:5-96
+	android:name
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:6:22-77
 application
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:7:5-33:19
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:8:5-34:19
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.0.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/AndroidManifest.xml:26:5-41:19
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
@@ -133,55 +137,92 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents
 MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.example.nrike.housemate.View.MainActivity
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:13:9-16:20
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:14:9-17:20
 	android:screenOrientation
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:15:13-49
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:16:13-49
 	android:name
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:14:13-46
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:15:13-46
 activity#com.example.nrike.housemate.View.Login
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:17:9-24:20
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:18:9-25:20
 	android:screenOrientation
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:18:13-49
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:19:13-49
 	android:name
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:17:19-45
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:18:19-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:23:27-74
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:26:9-107
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:27:9-107
 	android:value
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:26:66-105
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:27:66-105
 	android:name
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:26:20-65
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:27:20-65
 activity#com.facebook.FacebookActivity
-ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:27:9-31:48
+ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:28:9-32:48
 MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:29:9-32:75
 	android:label
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:31:13-45
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:32:13-45
 	android:configChanges
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:28:13-113
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:29:13-113
 	android:theme
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:30:13-72
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:31:13-72
 	android:name
-		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:27:19-63
+		ADDED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml:28:19-63
 uses-sdk
 INJECTED from /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.0.0/AndroidManifest.xml:4:5-42
@@ -300,6 +341,45 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents
 MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-storage:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.0.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.0.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -371,12 +451,28 @@ MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develap
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/AndroidManifest.xml:22:13-58
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
 MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
 MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
 MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:7:9-11:39
@@ -394,6 +490,8 @@ MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Docum
 		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/AndroidManifest.xml:9:13-58
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:20:9-22:45
 MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:20:9-22:45
 MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/AndroidManifest.xml:20:9-22:45
 	android:exported

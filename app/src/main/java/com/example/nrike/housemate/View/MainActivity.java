@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,7 +13,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +22,8 @@ import android.widget.AbsListView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.Model.Entity.User;
@@ -31,7 +33,6 @@ import com.facebook.login.LoginManager;
 
 import org.lucasr.twowayview.TwoWayView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import at.markushi.ui.CircleButton;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
     ListAdapter listAdapter ;
     ListAdapterUser listAdapterUser;
 
-    List<Product> products;
+    List<Product> listProducts;
     List<User> listUsers;
 
     ActionBar actionBar;
@@ -97,6 +98,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         dialogNewProduct();
     }
 
+    String product;
+    String quantity;
+
+    /*
     public void newProducts(){
         products = new ArrayList<>();
         products.add(new Product("Papel pa la mierda","2",R.drawable.prueba));
@@ -107,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         products.add(new Product("Papel pa la mierda","23",R.drawable.user));
         products.add(new Product("Papel pa la mierda","12",R.drawable.prueba));
     }
+    */
 /*
     public void newUsers(){
         users = new ArrayList<>();
@@ -127,18 +133,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         btmore.setVisibility(View.GONE);
         actionBar =getSupportActionBar();
 
-
         mainActivityPresenter = new MainActivityPresenter(this,this);
-
-        newProducts();
-       // newUsers();
-
-        listAdapter = new ListAdapter(getBaseContext(),products);
-        productsList.setAdapter(listAdapter);
-
-
-
-
 
         usersList.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
@@ -159,7 +154,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
 
         changeColors();
 
-        mainActivityPresenter.updateList();
+        mainActivityPresenter.updateListUsers();
+        mainActivityPresenter.updateListProducts();
 
     }
 
@@ -194,6 +190,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
        // finish();
     }
 
+    int ACTIVITY_SELECT_IMAGE = 1020;
     public void dialogNewProduct(){
         AlertDialog.Builder dialog_new_product = new AlertDialog.Builder(this);
 
@@ -203,7 +200,24 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         View view_new_product = inflater.inflate(R.layout.dialog_new_product, null);
         dialog_new_product.setView(view_new_product);
         //Actions View
+        FloatingActionButton btTakePhoto = (FloatingActionButton) view_new_product.findViewById(R.id.btTakePhoto);
+        final TextView txtproduct = (TextView) view_new_product.findViewById(R.id.txtnuevoproducto);
+        final TextView txtquantity = (TextView) view_new_product.findViewById(R.id.txtnuevacantidad);
 
+        btTakePhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (txtproduct.getText().toString().equals("")||txtquantity.getText().toString().equals("")){
+                    Toast.makeText(MainActivity.this, "Completa los datos", Toast.LENGTH_SHORT).show();
+                }else{
+                    Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);
+                    product = txtproduct.getText().toString();
+                    quantity = txtquantity.getText().toString();
+                    galleryIntent.setType("image/*");
+                    startActivityForResult(galleryIntent, ACTIVITY_SELECT_IMAGE);
+                }
+            }
+        });
 
 
         dialog_new_product.show();
@@ -313,9 +327,9 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
 
 
     @Override
-    public void LoadUser(List<User> users) {
+    public void loadUser(List<User> users) {
          this.listUsers = users;
-        Log.i("USERS_NUM",">>"+users.size());
+        //Log.i("USERS_NUM",">>"+users.size());
         listAdapterUser = new ListAdapterUser(getBaseContext(),users);
         usersList.setAdapter(listAdapterUser);
         listAdapterUser.notifyDataSetChanged();
@@ -326,4 +340,24 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         this.listUsers = users;
         listAdapterUser.notifyDataSetChanged();
     }
+
+    @Override
+    public void loadProduct(List<Product> products) {
+        this.listProducts=products;
+        listAdapter = new ListAdapter(getBaseContext(),products);
+        productsList.setAdapter(listAdapter);
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == ACTIVITY_SELECT_IMAGE && resultCode == RESULT_OK) {
+            Toast.makeText(MainActivity.this, "Subiendo...", Toast.LENGTH_SHORT).show();
+            Uri uri = data.getData();
+            mainActivityPresenter.addProduct(product,quantity,uri);
+
+        }
+    }
+
+
 }

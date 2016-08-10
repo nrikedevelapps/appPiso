@@ -7,20 +7,20 @@ public class Product {
 
     String name;
     String quantity;
-    int imagen;
+    String image;
 
-    public Product(String name, String quantity, int imagen) {
+    public Product(String name, String quantity, String imagen) {
         this.name = name;
         this.quantity = quantity;
-        this.imagen = imagen;
+        this.image = imagen;
     }
 
-    public int getImagen() {
-        return imagen;
+    public String getImagen() {
+        return image;
     }
 
-    public void setImagen(int imagen) {
-        this.imagen = imagen;
+    public void setImagen(String imagen) {
+        this.image = imagen;
     }
 
     public String getName() {

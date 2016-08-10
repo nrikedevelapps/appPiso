@@ -1,7 +1,9 @@
 package com.example.nrike.housemate.Presenter.MainActivity;
 
 import android.content.Context;
+import android.net.Uri;
 
+import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.Model.Entity.User;
 import com.example.nrike.housemate.Model.Facebooksdk.FacebookPreferences;
 import com.example.nrike.housemate.Model.Firebase.MainActivity.FirebaseMainActivity;
@@ -27,11 +29,18 @@ public class MainActivityPresenter implements MainActivityPresenterView{
         firebaseMainActivity = new FirebaseMainActivity(context,this);
     }
 
-    public void updateList(){
+    public void updateListUsers(){
         firebaseMainActivity.updateListUsers();
     }
 
+    public void updateListProducts(){
+        firebaseMainActivity.updateListProducts();
+    }
 
+    public void addProduct(String name, String quantity, Uri uri){
+        firebaseMainActivity.uploadProduct(name,quantity,uri);
+
+    }
 
     public void logOut(){
         loginPresenter.LoginFalse();
@@ -41,7 +50,12 @@ public class MainActivityPresenter implements MainActivityPresenterView{
 
     @Override
     public void loadUserList(List<User> users) {
-        mainActivityView.LoadUser(users);
+        mainActivityView.loadUser(users);
+    }
+
+    @Override
+    public void loadProductList(List<Product> products) {
+        mainActivityView.loadProduct(products);
     }
 
     @Override

@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.example.nrike.housemate.Model.Entity.Product;
 import com.example.nrike.housemate.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -58,7 +59,7 @@ public class ListAdapter extends BaseAdapter {
 
         txtproduct.setText(product.getName());
         txtquantity.setText(product.getQuantity());
-        img.setImageResource(product.getImagen());
+        Picasso.with(context).load(product.getImagen()).into(img);
 
         return v;
     }
