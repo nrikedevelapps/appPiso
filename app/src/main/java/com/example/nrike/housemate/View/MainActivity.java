@@ -101,28 +101,6 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
     String product;
     String quantity;
 
-    /*
-    public void newProducts(){
-        products = new ArrayList<>();
-        products.add(new Product("Papel pa la mierda","2",R.drawable.prueba));
-        products.add(new Product("Papel pa","34",R.drawable.degradate));
-        products.add(new Product("Papel pa la mierda","45",R.drawable.new_product));
-        products.add(new Product("Papel pa la mierda","12",R.drawable.part_menu));
-        products.add(new Product("Papel ","99",R.drawable.prueba));
-        products.add(new Product("Papel pa la mierda","23",R.drawable.user));
-        products.add(new Product("Papel pa la mierda","12",R.drawable.prueba));
-    }
-    */
-/*
-    public void newUsers(){
-        users = new ArrayList<>();
-        users.add(new User("PEPE",13,"nanai"));
-        users.add(new User("PEPE",13,"nanai"));
-        users.add(new User("PEPE",13,"nanai"));
-        users.add(new User("PEPE",13,"nanai"));
-
-    }
-*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -346,6 +324,12 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         this.listProducts=products;
         listAdapter = new ListAdapter(getBaseContext(),products);
         productsList.setAdapter(listAdapter);
+    }
+
+    @Override
+    public void updateProducts(List<Product> products) {
+        this.listProducts=products;
+        listAdapter.notifyDataSetChanged();
     }
 
 

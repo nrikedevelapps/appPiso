@@ -16,4 +16,6 @@ public interface MainActivityView {
 
     public void loadProduct(List<Product> products);
 
+    public void updateProducts(List<Product> products);
+
 }

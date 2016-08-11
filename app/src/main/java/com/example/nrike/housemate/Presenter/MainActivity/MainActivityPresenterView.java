@@ -16,4 +16,5 @@ public interface MainActivityPresenterView {
 
     public void updateUsers(List<User> users);
 
+    public void updateProductList(List<Product> products);
 }

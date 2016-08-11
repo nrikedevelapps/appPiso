@@ -62,4 +62,9 @@ public class MainActivityPresenter implements MainActivityPresenterView{
     public void updateUsers(List<User> users) {
         mainActivityView.updateUsers(users);
     }
+
+    @Override
+    public void updateProductList(List<Product> products) {
+        mainActivityView.updateProducts(products);
+    }
 }

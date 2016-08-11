@@ -157,7 +157,21 @@ public class FirebaseMainActivity {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                String name = String.valueOf(dataSnapshot.child("name").getValue());
+                String image = String.valueOf(dataSnapshot.child("imagen").getValue());
+                String quantity = String.valueOf(dataSnapshot.child("quantity").getValue());
 
+                Product aux = new Product(name,quantity,image);
+
+                for(int i =0; i<= list_products.size()-1;i++){
+                    Product product = list_products.get(i);
+                    if(aux.getName().equals(product.getName())){
+                        list_products.remove(product);
+                        list_products.add(i,aux);
+
+                    }
+                }
+                mainActivityPresenterView.updateProductList(list_products);
             }
 
             @Override
