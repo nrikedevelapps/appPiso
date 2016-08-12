@@ -51,8 +51,6 @@ public class FirebaseMainActivity {
         list_products = new ArrayList<>();
     }
 
-
-
     public void updateListUsers(){
 
         users= database.getReference();
@@ -177,6 +175,21 @@ public class FirebaseMainActivity {
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
 
+                String name = String.valueOf(dataSnapshot.child("name").getValue());
+                String image = String.valueOf(dataSnapshot.child("imagen").getValue());
+                String quantity = String.valueOf(dataSnapshot.child("quantity").getValue());
+
+                Product aux = new Product(name,quantity,image);
+
+                for(int i =0; i<= list_products.size()-1;i++){
+                    if(list_products.get(i).getName().equals(aux.getName())){
+                        list_products.remove(i);
+                        System.out.println(list_products.size());
+                    }
+                }
+
+                mainActivityPresenterView.updateProductList(list_products);
+
             }
 
             @Override
@@ -194,6 +207,7 @@ public class FirebaseMainActivity {
             @Override
             public void run() {
                 mainActivityPresenterView.loadProductList(list_products);
+                mainActivityPresenterView.updateProductList(list_products);
             }
         },2500);
     }
@@ -234,5 +248,12 @@ public class FirebaseMainActivity {
         products.child(product.getName()).setValue(product);
     }
 
+    public void deleteProduct(){
+
+    }
+
+    public void changeDataUser(){
+
+    }
 
 }

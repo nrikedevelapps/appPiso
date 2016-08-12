@@ -8,16 +8,12 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_white_bg_selector.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/rounded_button.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/rounded_button.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/more.png",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/more.png"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
@@ -28,264 +24,12 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/less.png"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/row_user_shape_1.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/row_user_shape_1.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/previous.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/previous.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/more.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/more.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/previous.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/previous.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/next.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/next.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/row_user_shape_2.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/row_user_shape_2.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/background_textbox.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/background_textbox.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_header_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/degradate_user.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/degradate_user.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_white_bg_selector.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/user.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/user.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/rounded_button.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/rounded_button.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/background_textbox.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/background_textbox.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/user.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/user.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/prueba.jpg",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/prueba.jpg"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_login_silver_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_login_silver_background.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/prueba.jpg",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/prueba.jpg"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/more.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/more.png"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/textbox_style.xml",
@@ -300,36 +44,36 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/part_menu.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/part_menu.png"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_like_background.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_light.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/row_user_shape_2.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/row_user_shape_2.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/previous.png",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/previous.png"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/textbox_style.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/textbox_style.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_background.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/less.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/less.png"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_blue_bg_selector.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
@@ -340,20 +84,12 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_full_material.xml"
-    },
-    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/new_product.png",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/new_product.png"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/next.png",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/next.png"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
@@ -364,24 +100,16 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/new_product.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/new_product.png"
-    },
-    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/buy_shop.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/buy_shop.png"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/row_user_shape_2.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/row_user_shape_2.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -392,12 +120,20 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/background_textbox.png",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/background_textbox.png"
+    },
+    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_icon.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
@@ -408,24 +144,16 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_blue_bg_round.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/next.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/next.png"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/buy_shopping.png",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/buy_shopping.png"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/row_user_shape_1.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/row_user_shape_1.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/degradate.png",
@@ -436,8 +164,12 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_white_bg_selector.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
@@ -448,16 +180,24 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/degradate.png",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/src/main/res/drawable/degradate.png"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/buy_shop.png",
@@ -476,47 +216,51 @@
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/rounded_button.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/rounded_button.xml"
+    },
+    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/degradate_user.png",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/degradate_user.png"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_white_bg_round.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/user.png"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_icon.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
         "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_login_silver_background.xml"
     },
     {
-        "merged": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/develapps15/Documents/Nrike/GitHub/AppPiso/appPiso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
+        "merged": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/build/intermediates/res/merged/debug/drawable/prueba.jpg",
+        "source": "/Users/develapps15/Documents/Nrike/GitHub/appPiso/appPiso/app/src/main/res/drawable/prueba.jpg"
     }
 ]

@@ -19,7 +19,7 @@ public class Tools {
     public byte[] uriToByteArray(Context context, Uri uri) throws IOException {
         byte[] data =null;
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        Bitmap mBitmap = resizeUriBitmap(context,uri, 1000,1000);
+        Bitmap mBitmap = resizeUriBitmap(context,uri, 400,500);
         mBitmap.compress(Bitmap.CompressFormat.JPEG,100,baos);
         data  =baos.toByteArray();
         return data;

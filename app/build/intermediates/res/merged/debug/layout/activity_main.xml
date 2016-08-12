@@ -26,7 +26,7 @@
             <org.lucasr.twowayview.TwoWayView
                 android:orientation="horizontal"
                 android:id="@+id/lvItems"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:foregroundGravity="bottom"
                 android:layout_alignParentTop="true"

@@ -168,6 +168,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
        // finish();
     }
 
+    //DIALOGS//*/*/*/**/*/*/*/*/*/
+
     int ACTIVITY_SELECT_IMAGE = 1020;
     public void dialogNewProduct(){
         AlertDialog.Builder dialog_new_product = new AlertDialog.Builder(this);
@@ -193,6 +195,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
                     quantity = txtquantity.getText().toString();
                     galleryIntent.setType("image/*");
                     startActivityForResult(galleryIntent, ACTIVITY_SELECT_IMAGE);
+                    btmore.setVisibility(View.GONE);
+                    horizontalList.setVisibility(View.GONE);
                 }
             }
         });
@@ -302,13 +306,11 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
 
     }
 
-
-
     @Override
     public void loadUser(List<User> users) {
-         this.listUsers = users;
+        this.listUsers = users;
         //Log.i("USERS_NUM",">>"+users.size());
-        listAdapterUser = new ListAdapterUser(getBaseContext(),users);
+        listAdapterUser = new ListAdapterUser(getBaseContext(), users);
         usersList.setAdapter(listAdapterUser);
         listAdapterUser.notifyDataSetChanged();
     }
